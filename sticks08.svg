@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg width="400px" height="400px"
+        xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<title>Enochian Pyramid</title>
+    <desc>After the manner of frater SRMD</desc>
+
+    <!-- Drawing the triangles and the top square -->
+<g id='triangles' fill='none'>
+<path d="M 0 0 L 0 400 L 200 200 z"
+        fill="red" stroke="#000" stroke-width="1" /><path d="M 0 0 L 400 0 L 200 200 z"
+        fill="#fff" stroke="#000" stroke-width="1" /><path d="M 400 400 L 400 0 L 200 200 z"
+        fill="orange" stroke="#000" stroke-width="1" /><path d="M 0 400 L 400 400 L 200 200 z"
+        fill="red" stroke="#000" stroke-width="1" />  <rect x="125" y="125" width="150" height="150"
+        fill="#fff" stroke="#000" stroke-width="1"  />
+</g>
+<!-- Text -->
+<g id='text' fill='none'>
+	<text x="75" y="250" font-family="Verdana" font-size="110" fill="green" text-anchor="middle">
+    		♐
+  			</text>	<text x="210" y="95" font-family="Verdana" font-size="110" fill="#000" text-anchor="middle">
+    		☸
+  			</text>	<text x="345" y="250" font-family="Verdana" font-size="110" fill="blue" text-anchor="middle">
+    		☿
+  			</text>	<text x="210" y="370" font-family="Verdana" font-size="110" fill="green" text-anchor="middle">
+    		&#128770;
+  			</text>	<text x="210" y="240" font-family="Verdana" font-size="110" fill="#000" text-anchor="middle">
+    		D
+  			</text>
+</g>
+<!-- Here cometh Spirits -->
+</svg>
