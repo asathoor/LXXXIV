@@ -1,6 +1,8 @@
 Liber LXXXIV: The Pyramids
 ==========================
 
+![Sample](https://github.com/asathoor/LXXXIV/blob/master/sticks08.svg)
+
 Create Enochian pyramids for [Liber LXXXIV](https://hermetic.com/crowley/libers/lib84).
 
 ## The pyramid
