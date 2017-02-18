@@ -11,6 +11,22 @@ Liber LXXXIV: Create the Pyramids (2.0)
 
 ## Settings in: chanokh.php
 
+The function in chanokh.php requieres five colors, and five symbols:
+
+~~~~
+/**
+ * Pass variables to the pyramid
+ * $col01 = color in triangle 1.
+ * $sym01 = symbol in triangle 1.
+ */
+require_once "symbols.php";
+
+function drawPyramid( $col01, $col02, $col03, $col04, $col05, $sym01, $sym02, $sym03, $sym04, $sym05 ){
+	... etc. ...
+~~~~
+
+Enther them, like:
+
 ~~~~
 drawPyramid( $red, $white, $orange, $red, $white, $sagitaurus, $spirit, $mercury , $fire, "D" );
 ~~~~
