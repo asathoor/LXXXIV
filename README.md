@@ -21,14 +21,18 @@ The function in chanokh.php requieres five colors, and five symbols:
  */
 require_once "symbols.php";
 
-function drawPyramid( $col01, $col02, $col03, $col04, $col05, $sym01, $sym02, $sym03, $sym04, $sym05 ){
+function drawPyramid( $col01, $col02, $col03,	$col04, $col05, 
+	$sym01, $sym02, $sym03, $sym04, $sym05, 
+	$fill01, $fill02, $fill03, $fill04, $fill05 ){
 	... etc. ...
 ~~~~
 
 Enther them, like:
 
 ~~~~
-drawPyramid( $red, $white, $orange, $red, $white, $sagitaurus, $spirit, $mercury , $fire, "D" );
+drawPyramid("#a0d9ff","#fff","orange","red","white", 
+	$sagitaurus, $spirit, $mercury , $fire, "D",
+	$orange, $black, $blue, $green, $black );
 ~~~~
 
 * Find the variable for the relevant symbols in symbols.php.

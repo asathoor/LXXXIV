@@ -1,24 +1,4 @@
-<?php
-/**
- * Liber LXXXIV
- * Pyramid creator
- * (c) GPLv2 and later by Per Thykjaer Jensen 2017
- * Version 2.0
- *
- * The original class was a bloated. This is occamstyle.
-*/
-/**
- * Pass variables to the pyramid
- * $col01 = color in triangle 1.
- * $sym01 = symbol in triangle 1.
- */
-require_once "symbols.php";
-
-function drawPyramid( $col01, $col02, $col03, $col04, $col05, $sym01, $sym02, $sym03, $sym04, $sym05, $fill01, $fill02, $fill03, $fill04, $fill05 ){
-
-	echo '<?xml version="1.0" encoding="UTF-8" standalone="no"?>';
-	?>
-<svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg
 	 xmlns:dc="http://purl.org/dc/elements/1.1/"
 	 xmlns:cc="http://creativecommons.org/ns#"
 	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -75,25 +55,25 @@ function drawPyramid( $col01, $col02, $col03, $col04, $col05, $sym01, $sym02, $s
 		 fill="none">
 		<path
 		   d="M 0 0 L 0 400 L 200 200 z"
-		   fill="<?php echo $col01; ?>"
+		   fill="#a0d9ff"
 		   stroke="#000"
 		   stroke-width="1"
 		   id="triangle01" />
 		<path
 		   d="M 0 0 L 400 0 L 200 200 z"
-		   fill="<?php echo $col02; ?>"
+		   fill="#fff"
 		   stroke="#000"
 		   stroke-width="1"
 		   id="triangle02" />
 		<path
 		   d="M 400 400 L 400 0 L 200 200 z"
-		   fill="<?php echo $col03; ?>"
+		   fill="orange"
 		   stroke="#000"
 		   stroke-width="1"
 		   id="triangle03" />
 		<path
 		   d="M 0 400 L 400 400 L 200 200 z"
-		   fill="<?php echo $col04; ?>"
+		   fill="red"
 		   stroke="#000"
 		   stroke-width="1"
 		   id="triangle04" />
@@ -102,7 +82,7 @@ function drawPyramid( $col01, $col02, $col03, $col04, $col05, $sym01, $sym02, $s
 		   y="125"
 		   width="150"
 		   height="150"
-		   fill="<?php echo $col05; ?>"
+		   fill="white"
 		   stroke="#000"
 		   stroke-width="1"
 		   id="topSquare" />
@@ -118,39 +98,30 @@ function drawPyramid( $col01, $col02, $col03, $col04, $col05, $sym01, $sym02, $s
 		   y="250"
 		   font-size="110"
 		   id="triangleSymbol01"
-		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:<?php echo $fill01; ?>"><?php echo $sym01; ?></text>
+		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:#008000">♐</text>
 		<text
 		   x="210"
 		   y="95"
 		   font-size="110"
 		   id="triangleSymbol02"
-		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:<?php echo $fill02; ?>"><?php echo $sym02; ?></text>
+		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:#000000">☸</text>
 		<text
 		   x="345"
 		   y="250"
 		   font-size="110"
 		   id="triangleSymbol03"
-		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:<?php echo $fill03; ?>"><?php echo $sym03; ?></text>
+		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:#0000ff">☿</text>
 		<text
 		   x="210"
 		   y="370"
 		   font-size="110"
 		   id="triangleSymbol04"
-		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:<?php echo $fill04; ?>"><?php echo $sym04; ?></text>
+		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:#008000">&#128770;</text>
 		<text
 		   x="210"
 		   y="240"
 		   font-size="110"
 		   id="triangleSymbol05"
-		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:<?php echo $fill05; ?>"><?php echo $sym05; ?></text>
+		   style="font-size:110px;font-family:Verdana;text-anchor:middle;fill:#000000">D</text>
 	</g>
-</svg><?php
-}; // ends function
-
-/**
- * Proof of concept ( 8 of wands, firery tablet )
- */
-drawPyramid("#a0d9ff","#fff","orange","red","white", 
-	$sagitaurus, $spirit, $mercury , $fire, "D",
-	$orange, $black, $blue, $green, $black );
-?>
+</svg>
