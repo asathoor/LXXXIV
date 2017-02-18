@@ -21,7 +21,7 @@ drawPyramid( $red, $white, $orange, $red, $white, $sagitaurus, $spirit, $mercury
 ## Save to .svg
 
 ~~~~
-php pyramide.php > yourPyramid.svg
+php chanokh.php > yourPyramid.svg
 ~~~~
 
 ## Versions
