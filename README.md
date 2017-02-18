@@ -1,9 +1,7 @@
-Liber LXXXIV: The Pyramids
-==========================
+Liber LXXXIV: Create the Pyramids
+=================================
 
-Create Enochian pyramids as in Liber LXXXIV.
-
-## The pyramid
+## Pyramid Positions
 
 1. Left.
 2. Top.
@@ -11,7 +9,7 @@ Create Enochian pyramids as in Liber LXXXIV.
 4. Bottom.
 5. Central square.
 
-## pyramide.php
+## Settings in: pyramide.php
 
 ~~~~
 // design your pyramid
@@ -25,7 +23,7 @@ $pyramid->set_top("D","$white","$black");
 * Find the variable for the relevant symbols in symbols.php.
 * svg-class.php is the main class.
 
-## Make a file
+## Save to .svg
 
 ~~~~
 php pyramide.php > yourPyramid.svg
