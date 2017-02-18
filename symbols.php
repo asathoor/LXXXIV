@@ -1,4 +1,4 @@
-<?php
+<?php 
 /* SYMBOLS IN UNICODE */
 
 /* the elements */

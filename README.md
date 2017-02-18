@@ -1,5 +1,5 @@
-Liber LXXXIV: Create the Pyramids
-=================================
+Liber LXXXIV: Create the Pyramids (2.0)
+=======================================
 
 ## Pyramid Positions
 
@@ -28,3 +28,11 @@ $pyramid->set_top("D","$white","$black");
 ~~~~
 php pyramide.php > yourPyramid.svg
 ~~~~
+
+## New in
+
+### 2.0
+
+* The initial class was too bloated.
+* use chanokh.php 
+* pyramide.php and svg-class.php removed
