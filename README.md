@@ -9,7 +9,7 @@ Liber LXXXIV: Create the Pyramids (2.0)
 4. Bottom.
 5. Central square.
 
-## Settings in: pyramide.php
+## Settings in: chanokh.php
 
 ~~~~
 drawPyramid( $red, $white, $orange, $red, $white, $sagitaurus, $spirit, $mercury , $fire, "D" );
