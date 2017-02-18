@@ -27,7 +27,7 @@ function drawPyramid( $col01, $col02, $col03,	$col04, $col05,
 	... etc. ...
 ~~~~
 
-Enther them, like:
+Enter them, like:
 
 ~~~~
 drawPyramid("#a0d9ff","#fff","orange","red","white", 
