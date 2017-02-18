@@ -1,9 +1,7 @@
 Liber LXXXIV: The Pyramids
 ==========================
 
-![Sample](https://raw.githubusercontent.com/asathoor/LXXXIV/master/sticks08.svg)
-
-Create Enochian pyramids for [Liber LXXXIV](https://hermetic.com/crowley/libers/lib84).
+Create Enochian pyramids as in Liber LXXXIV.
 
 ## The pyramid
 
@@ -32,5 +30,3 @@ $pyramid->set_top("D","$white","$black");
 ~~~~
 php pyramide.php > yourPyramid.svg
 ~~~~
-
-
