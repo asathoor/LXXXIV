@@ -12,12 +12,7 @@ Liber LXXXIV: Create the Pyramids (2.0)
 ## Settings in: pyramide.php
 
 ~~~~
-// design your pyramid
-$pyramid->set_triangle1("$sagitaurus","$red","$green");
-$pyramid->set_triangle2("$spirit","$white","$black"); 
-$pyramid->set_triangle3("$mercury","$orange","$blue");
-$pyramid->set_triangle4("$fire","$red","$green"); 
-$pyramid->set_top("D","$white","$black");
+drawPyramid( $red, $white, $orange, $red, $white, $sagitaurus, $spirit, $mercury , $fire, "D" );
 ~~~~
 
 * Find the variable for the relevant symbols in symbols.php.
@@ -29,7 +24,7 @@ $pyramid->set_top("D","$white","$black");
 php pyramide.php > yourPyramid.svg
 ~~~~
 
-## New in
+## Versions
 
 ### 2.0
 
